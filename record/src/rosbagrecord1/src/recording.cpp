@@ -22,7 +22,7 @@ int main(int argc, char **argv)
   options.publish = true; // publish a topic /begin_write --> later for LED 
   options.min_space = 0; // If the minimum free space (in bytes) on disk is below this threshold, the recorder terminates.
   //options.verbose = true; //Outputs a log when a message is received.
-  // opts.compression = rosbag::compression::LZ4; // or BZ2
+  //options.compression = rosbag::compression::LZ4; // or BZ2
   options.split = true; //Split the bag file and continue recording when maximum duration reached
   options.regex = false; //If true, topics is expected to be a list of regular expressions.
  // options.buffer_size = 15000; //Use an internal buffer of SIZE MB (Default: 256)
